@@ -1,0 +1,30 @@
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.convas{
+    border: 2px solid black;
+}
+.top,.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 20px 0px;
+}
+.block, input, select, button{
+    width: 80%;
+}
+p{
+    font-size: 1.3rem;
+}
+.bottom>button{
+    margin: 10px;
+    padding: 7px;
+    font-size: 1.2rem;
+    border: none;
+} 
+.bottom>button:hover{
+    color: gray;
+}
