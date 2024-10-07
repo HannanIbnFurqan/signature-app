@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="main">
+        
+        <div class="top">
+            <!-- text color -->
+            <div class="block">
+                <p>Text Color picker </p>
+                <input type="color" class="form-control" id="colorPicker">
+            </div>
+         <!-- background color -->
+            <div class="block">
+                <p>Background </p>
+                <input type="color" class="form-control" id="convaPicker">
+            </div>
+          <!-- text size -->
+            <div class="block">
+                <p>Text Size</p>
+               <select>
+                <option value="5">5px</option>
+                <option value="10">10px</option>
+                <option value="20">20px</option>
+                <option value="30">30px</option>
+                <option value="40">40px</option>
+                <option value="50">50px</option>
+               </select>
+            </div>
+        </div>
+         <!-- display -->
+        <div class="convas" id="myConvas" style=" height: 500px; width: 800px;"></div>
+
+        <div class="bottom">
+          <button type="button" class="btn btn-danger" id="clearButton" style="background-color: green;" >clear</button>
+          <button type="button" class="btn btn-success" id="saveButton" style="background-color: yellow;" >save & download</button>
+          <button type="button" class="btn btn-warning" id="retrieveButton" style="background-color: red;">retrieve save signature</button>
+        </div>
+    </div>
+</body>
+
+</html>
