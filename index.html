@@ -20,12 +20,12 @@
          <!-- background color -->
             <div class="block">
                 <p>Background </p>
-                <input type="color" class="form-control" id="convaPicker">
+                <input type="color" class="form-control" id="convasColor">
             </div>
           <!-- text size -->
             <div class="block">
                 <p>Text Size</p>
-               <select>
+               <select id="fontPicker">
                 <option value="5">5px</option>
                 <option value="10">10px</option>
                 <option value="20">20px</option>
@@ -36,14 +36,15 @@
             </div>
         </div>
          <!-- display -->
-        <div class="convas" id="myConvas" style=" height: 500px; width: 800px;"></div>
-
+         <canvas class="convas" id="myConvas" style="height: 500px; width: 800px;"></canvas>
+ 
         <div class="bottom">
           <button type="button" class="btn btn-danger" id="clearButton" style="background-color: green;" >clear</button>
           <button type="button" class="btn btn-success" id="saveButton" style="background-color: yellow;" >save & download</button>
           <button type="button" class="btn btn-warning" id="retrieveButton" style="background-color: red;">retrieve save signature</button>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
